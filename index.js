@@ -5,8 +5,8 @@ function distanceFromHqInBlocks(blocks) {
   return Math.abs(blocks - 42)
 }
 
-function distanceFromHqInFeet() {
-  distanceFromHqInBlocks()
+function distanceFromHqInFeet(feet) {
+  distanceFromHqInBlocks(calculateVertical)
 }
 
 function distanceTravelledInFeet() {

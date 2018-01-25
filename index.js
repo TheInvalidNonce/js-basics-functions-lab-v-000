@@ -6,7 +6,7 @@ function distanceFromHqInBlocks(blocks) {
 }
 
 function distanceFromHqInFeet(feet) {
-  distanceFromHqInBlocks(blocks * calculateVertical())
+  return distanceFromHqInBlocks(blocks * 264)
 }
 
 function distanceTravelledInFeet() {

@@ -1,5 +1,5 @@
 function calculateVertical(start, end) {
-  return (end - start) * 264
+  return Math.abs(end - start) * 264
 }
 function distanceFromHqInBlocks(blocks) {
   return Math.abs(blocks - 42)

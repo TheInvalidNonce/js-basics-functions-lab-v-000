@@ -10,7 +10,7 @@ function distanceFromHqInFeet(blocks) {
 }
 
 function distanceTravelledInFeet(start, end) {
-  
+  return calculateVertical(start, end)
 }
 
 function calculatesFarePrice(start, destination) {
